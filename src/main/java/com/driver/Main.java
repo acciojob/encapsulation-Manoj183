@@ -4,10 +4,10 @@ public class Main {
    public static void main(String[] args) {
         RWOnly obj = new RWOnly();
         
-        //obj.name = "John"; 
+        //obj.name = "Manoj"; 
         // Error: name has private access in RWOnly
 
-        obj.setName("John");
+        obj.setName("Manoj");
         
         //System.out.println(obj.name); 
         // Error: name has private access in RWOnly
